@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="gsj-kX-gpt">
+            <objects>
+                <navigationController id="IAy-8q-pKH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YhE-bb-aWS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RZF-cw-VbL" kind="relationship" relationship="rootViewController" id="Dm4-Yd-3mY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyn-3F-xjt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1078" y="63"/>
+        </scene>
+        <!--FaceLiveCognitionViewController-->
+        <scene sceneID="gDo-hp-eJN">
+            <objects>
+                <viewController id="RZF-cw-VbL" userLabel="FaceLiveCognitionViewController" customClass="FaceRecongnitionViewController" customModule="OpenCVToy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h9H-fn-Dl7"/>
+                        <viewControllerLayoutGuide type="bottom" id="eVq-Qt-mQR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aPv-aC-wxh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l0P-Xg-zfE" userLabel="imageView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1D-qI-mIQ">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="8sK-po-3v9"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="l0P-Xg-zfE" firstAttribute="top" secondItem="h9H-fn-Dl7" secondAttribute="bottom" id="GmA-JA-Xod"/>
+                            <constraint firstAttribute="trailing" secondItem="l0P-Xg-zfE" secondAttribute="trailing" id="P9v-Ar-Md3"/>
+                            <constraint firstItem="eVq-Qt-mQR" firstAttribute="top" secondItem="e1D-qI-mIQ" secondAttribute="bottom" id="YRq-ta-OYr"/>
+                            <constraint firstAttribute="trailing" secondItem="e1D-qI-mIQ" secondAttribute="trailing" id="an7-ce-xMR"/>
+                            <constraint firstItem="e1D-qI-mIQ" firstAttribute="top" secondItem="l0P-Xg-zfE" secondAttribute="bottom" id="bsI-cZ-hSD"/>
+                            <constraint firstItem="e1D-qI-mIQ" firstAttribute="leading" secondItem="aPv-aC-wxh" secondAttribute="leading" id="n9v-5C-t3R"/>
+                            <constraint firstItem="l0P-Xg-zfE" firstAttribute="leading" secondItem="aPv-aC-wxh" secondAttribute="leading" id="xRD-T4-Biy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="IjT-TS-q1n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Eq-w5-2eB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-386.39999999999998" y="62.518740629685162"/>
+        </scene>
+    </scenes>
+</document>

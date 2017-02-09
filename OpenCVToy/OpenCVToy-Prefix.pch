@@ -1,0 +1,27 @@
+//
+//  OpenCVToy-Prefix.pch
+//  OpenCVToy
+//
+//  Created by Jingwei Wu on 09/02/2017.
+//  Copyright © 2017 jingweiwu. All rights reserved.
+//
+
+#ifndef OpenCVToy_Prefix_pch
+#define OpenCVToy_Prefix_pch
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#import <Availability.h>
+
+//#ifndef __IPHONE_5_0
+//#warning "This project uses features only available in iOS SDK 5.0 and later."
+//#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif /* OpenCVToy_Prefix_pch */

@@ -10,13 +10,25 @@
 		382976B91E4BF5DD009D6B40 /* FaceLiveCognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382976B71E4BF5DD009D6B40 /* FaceLiveCognition.storyboard */; };
 		382976BA1E4BF5DD009D6B40 /* FaceLiveCognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382976B81E4BF5DD009D6B40 /* FaceLiveCognitionViewController.swift */; };
 		382976C91E4C5948009D6B40 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 382976CB1E4C5948009D6B40 /* Localizable.strings */; };
+		383738EA1E50987D00A1A48D /* lbpcascade_frontalface_improved.xml in Resources */ = {isa = PBXBuildFile; fileRef = 383738E81E50987D00A1A48D /* lbpcascade_frontalface_improved.xml */; };
 		388D14E31E4C5AC4001CF67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388D14E21E4C5AC4001CF67B /* LaunchScreen.storyboard */; };
 		38AE61961E4B557F00BE9646 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE61941E4B557F00BE9646 /* BaseViewController.swift */; };
 		38AE61981E4B55A300BE9646 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE61971E4B55A300BE9646 /* MainViewController.swift */; };
 		38AE619A1E4B698E00BE9646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE61991E4B698E00BE9646 /* Main.storyboard */; };
+		38C70BC31E4D494500C0A640 /* FaceDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38C70BC21E4D494500C0A640 /* FaceDetector.mm */; };
+		38C70BC61E4D499800C0A640 /* CameraUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C70BC51E4D499800C0A640 /* CameraUtil.swift */; };
+		38C70BCA1E4D54FE00C0A640 /* UIImage+OpenCVToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C70BC91E4D54FE00C0A640 /* UIImage+OpenCVToy.swift */; };
+		38C70BCE1E4D5FC900C0A640 /* FaceWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38C70BCD1E4D5FC900C0A640 /* FaceWrapper.mm */; };
+		38D4B7321E4CB8C10005E3E1 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D4B7301E4CB8C10005E3E1 /* opencv2.framework */; };
+		38D4B73A1E4CBC770005E3E1 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38D4B7371E4CBC770005E3E1 /* haarcascade_frontalface_alt.xml */; };
+		38D4B73B1E4CBC770005E3E1 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38D4B7381E4CBC770005E3E1 /* haarcascade_frontalface_alt2.xml */; };
 		38F544FC1E4B119F00C39349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F544FB1E4B119F00C39349 /* AppDelegate.swift */; };
 		38F544FE1E4B119F00C39349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F544FD1E4B119F00C39349 /* Assets.xcassets */; };
 		38F5450C1E4B119F00C39349 /* OpenCVToyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5450B1E4B119F00C39349 /* OpenCVToyTests.swift */; };
+		38FC0EEC1E51475C00656529 /* lbpcascade_frontalface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38FC0EEB1E51475C00656529 /* lbpcascade_frontalface.xml */; };
+		38FC0EEF1E51482700656529 /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38FC0EED1E51482700656529 /* haarcascade_frontalface_alt_tree.xml */; };
+		38FC0EF01E51482700656529 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38FC0EEE1E51482700656529 /* haarcascade_frontalface_default.xml */; };
+		38FC0EF21E51484000656529 /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38FC0EF11E51484000656529 /* haarcascade_fullbody.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,21 @@
 		382976BC1E4BF74C009D6B40 /* OpenCVToy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVToy-Prefix.pch"; sourceTree = "<group>"; };
 		382976CA1E4C5948009D6B40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		382976CC1E4C595E009D6B40 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		383738E81E50987D00A1A48D /* lbpcascade_frontalface_improved.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lbpcascade_frontalface_improved.xml; sourceTree = "<group>"; };
 		388D14E21E4C5AC4001CF67B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38AE61941E4B557F00BE9646 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		38AE61971E4B55A300BE9646 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		38AE61991E4B698E00BE9646 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		38C70BC11E4D494500C0A640 /* FaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetector.h; sourceTree = "<group>"; };
+		38C70BC21E4D494500C0A640 /* FaceDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FaceDetector.mm; sourceTree = "<group>"; };
+		38C70BC51E4D499800C0A640 /* CameraUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraUtil.swift; sourceTree = "<group>"; };
+		38C70BC91E4D54FE00C0A640 /* UIImage+OpenCVToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+OpenCVToy.swift"; sourceTree = "<group>"; };
+		38C70BCB1E4D5DED00C0A640 /* FaceWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceWrapper.h; sourceTree = "<group>"; };
+		38C70BCD1E4D5FC900C0A640 /* FaceWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FaceWrapper.mm; sourceTree = "<group>"; };
+		38D4B7301E4CB8C10005E3E1 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		38D4B7341E4CB9280005E3E1 /* OpenCVToy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVToy-Bridging-Header.h"; sourceTree = "<group>"; };
+		38D4B7371E4CBC770005E3E1 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		38D4B7381E4CBC770005E3E1 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
 		38F544F81E4B119F00C39349 /* OpenCVToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F544FB1E4B119F00C39349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F544FD1E4B119F00C39349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +69,10 @@
 		38F545071E4B119F00C39349 /* OpenCVToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVToyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F5450B1E4B119F00C39349 /* OpenCVToyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVToyTests.swift; sourceTree = "<group>"; };
 		38F5450D1E4B119F00C39349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FC0EEB1E51475C00656529 /* lbpcascade_frontalface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lbpcascade_frontalface.xml; sourceTree = "<group>"; };
+		38FC0EED1E51482700656529 /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+		38FC0EEE1E51482700656529 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		38FC0EF11E51484000656529 /* haarcascade_fullbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_fullbody.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D4B7321E4CB8C10005E3E1 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +97,8 @@
 		382976B61E4BF5DD009D6B40 /* FaceLiveCognitionViewController */ = {
 			isa = PBXGroup;
 			children = (
-				382976B71E4BF5DD009D6B40 /* FaceLiveCognition.storyboard */,
 				382976B81E4BF5DD009D6B40 /* FaceLiveCognitionViewController.swift */,
+				382976B71E4BF5DD009D6B40 /* FaceLiveCognition.storyboard */,
 			);
 			path = FaceLiveCognitionViewController;
 			sourceTree = "<group>";
@@ -102,12 +130,64 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
+		38C70BBF1E4D494500C0A640 /* CVCore */ = {
+			isa = PBXGroup;
+			children = (
+				38C70BC01E4D494500C0A640 /* FaceDetector */,
+			);
+			path = CVCore;
+			sourceTree = "<group>";
+		};
+		38C70BC01E4D494500C0A640 /* FaceDetector */ = {
+			isa = PBXGroup;
+			children = (
+				38C70BC11E4D494500C0A640 /* FaceDetector.h */,
+				38C70BC21E4D494500C0A640 /* FaceDetector.mm */,
+				38C70BCB1E4D5DED00C0A640 /* FaceWrapper.h */,
+				38C70BCD1E4D5FC900C0A640 /* FaceWrapper.mm */,
+			);
+			path = FaceDetector;
+			sourceTree = "<group>";
+		};
+		38C70BC41E4D499800C0A640 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				38C70BC51E4D499800C0A640 /* CameraUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		38C70BC71E4D54D800C0A640 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				38C70BC81E4D54D800C0A640 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		38C70BC81E4D54D800C0A640 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				38C70BC91E4D54FE00C0A640 /* UIImage+OpenCVToy.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		38D4B72F1E4CB8BE0005E3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D4B7301E4CB8C10005E3E1 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		38F544EF1E4B119F00C39349 = {
 			isa = PBXGroup;
 			children = (
 				38F544FA1E4B119F00C39349 /* OpenCVToy */,
 				38F5450A1E4B119F00C39349 /* OpenCVToyTests */,
 				38F544F91E4B119F00C39349 /* Products */,
+				38D4B72F1E4CB8BE0005E3E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,11 +203,22 @@
 		38F544FA1E4B119F00C39349 /* OpenCVToy */ = {
 			isa = PBXGroup;
 			children = (
-				388D14E21E4C5AC4001CF67B /* LaunchScreen.storyboard */,
+				38FC0EF11E51484000656529 /* haarcascade_fullbody.xml */,
+				38FC0EED1E51482700656529 /* haarcascade_frontalface_alt_tree.xml */,
+				38FC0EEE1E51482700656529 /* haarcascade_frontalface_default.xml */,
+				38FC0EEB1E51475C00656529 /* lbpcascade_frontalface.xml */,
+				383738E81E50987D00A1A48D /* lbpcascade_frontalface_improved.xml */,
+				38D4B7371E4CBC770005E3E1 /* haarcascade_frontalface_alt.xml */,
+				38D4B7381E4CBC770005E3E1 /* haarcascade_frontalface_alt2.xml */,
+				38C70BC71E4D54D800C0A640 /* Common */,
+				38C70BBF1E4D494500C0A640 /* CVCore */,
+				38C70BC41E4D499800C0A640 /* Util */,
 				38AE61921E4B557F00BE9646 /* ViewController */,
 				38F544FB1E4B119F00C39349 /* AppDelegate.swift */,
 				38F544FD1E4B119F00C39349 /* Assets.xcassets */,
 				38F545021E4B119F00C39349 /* Info.plist */,
+				388D14E21E4C5AC4001CF67B /* LaunchScreen.storyboard */,
+				38D4B7341E4CB9280005E3E1 /* OpenCVToy-Bridging-Header.h */,
 				382976BC1E4BF74C009D6B40 /* OpenCVToy-Prefix.pch */,
 				382976CB1E4C5948009D6B40 /* Localizable.strings */,
 			);
@@ -194,6 +285,7 @@
 					38F544F71E4B119F00C39349 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4VB576U766;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					38F545061E4B119F00C39349 = {
@@ -229,10 +321,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				382976C91E4C5948009D6B40 /* Localizable.strings in Resources */,
+				38D4B73A1E4CBC770005E3E1 /* haarcascade_frontalface_alt.xml in Resources */,
+				38FC0EEC1E51475C00656529 /* lbpcascade_frontalface.xml in Resources */,
+				38FC0EF01E51482700656529 /* haarcascade_frontalface_default.xml in Resources */,
+				38D4B73B1E4CBC770005E3E1 /* haarcascade_frontalface_alt2.xml in Resources */,
 				382976B91E4BF5DD009D6B40 /* FaceLiveCognition.storyboard in Resources */,
+				383738EA1E50987D00A1A48D /* lbpcascade_frontalface_improved.xml in Resources */,
 				38AE619A1E4B698E00BE9646 /* Main.storyboard in Resources */,
 				388D14E31E4C5AC4001CF67B /* LaunchScreen.storyboard in Resources */,
+				38FC0EEF1E51482700656529 /* haarcascade_frontalface_alt_tree.xml in Resources */,
 				38F544FE1E4B119F00C39349 /* Assets.xcassets in Resources */,
+				38FC0EF21E51484000656529 /* haarcascade_fullbody.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C70BC61E4D499800C0A640 /* CameraUtil.swift in Sources */,
 				382976BA1E4BF5DD009D6B40 /* FaceLiveCognitionViewController.swift in Sources */,
 				38AE61981E4B55A300BE9646 /* MainViewController.swift in Sources */,
 				38F544FC1E4B119F00C39349 /* AppDelegate.swift in Sources */,
+				38C70BC31E4D494500C0A640 /* FaceDetector.mm in Sources */,
 				38AE61961E4B557F00BE9646 /* BaseViewController.swift in Sources */,
+				38C70BCA1E4D54FE00C0A640 /* UIImage+OpenCVToy.swift in Sources */,
+				38C70BCE1E4D5FC900C0A640 /* FaceWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,13 +490,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4VB576U766;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVToy/OpenCVToy-Prefix.pch";
 				INFOPLIST_FILE = OpenCVToy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingweiwu.OpenCVToy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCVToy/OpenCVToy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -402,13 +514,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4VB576U766;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVToy/OpenCVToy-Prefix.pch";
 				INFOPLIST_FILE = OpenCVToy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingweiwu.OpenCVToy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCVToy/OpenCVToy-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
